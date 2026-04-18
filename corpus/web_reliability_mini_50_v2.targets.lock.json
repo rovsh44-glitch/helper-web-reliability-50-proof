@@ -1,0 +1,806 @@
+{
+  "generatedAtUtc": "2026-04-17T05:57:19.8214093Z",
+  "corpusPath": "eval/web_reliability/web_reliability_mini_50_v2.jsonl",
+  "corpusSha256": "66a289d088e24fb62444dabf138bd39f0bd300f9c75c54b5d18debf1fc795a7d",
+  "totalCases": 50,
+  "totalUrlRows": 51,
+  "uniqueUrlCount": 42,
+  "caseCountByClass": {
+    "C01": 5,
+    "C02": 5,
+    "C03": 5,
+    "C04": 5,
+    "C05": 5,
+    "C06": 5,
+    "C07": 5,
+    "C08": 5,
+    "C09": 5,
+    "C10": 5
+  },
+  "urlRows": [
+    {
+      "role": "target",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+      "caseId": "wrm-001",
+      "classId": "C01"
+    },
+    {
+      "role": "target",
+      "url": "https://docs.python.org/3/tutorial/introduction.html",
+      "caseId": "wrm-002",
+      "classId": "C01"
+    },
+    {
+      "role": "target",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+      "caseId": "wrm-003",
+      "classId": "C01"
+    },
+    {
+      "role": "target",
+      "url": "https://12factor.net/",
+      "caseId": "wrm-004",
+      "classId": "C01"
+    },
+    {
+      "role": "target",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "caseId": "wrm-005",
+      "classId": "C01"
+    },
+    {
+      "role": "target",
+      "url": "https://raw.githubusercontent.com/psf/requests/main/README.md",
+      "caseId": "wrm-006",
+      "classId": "C02"
+    },
+    {
+      "role": "target",
+      "url": "https://raw.githubusercontent.com/python/cpython/main/README.rst",
+      "caseId": "wrm-007",
+      "classId": "C02"
+    },
+    {
+      "role": "target",
+      "url": "https://raw.githubusercontent.com/encode/httpx/master/README.md",
+      "caseId": "wrm-008",
+      "classId": "C02"
+    },
+    {
+      "role": "target",
+      "url": "https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/README.md",
+      "caseId": "wrm-009",
+      "classId": "C02"
+    },
+    {
+      "role": "target",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.txt",
+      "caseId": "wrm-010",
+      "classId": "C02"
+    },
+    {
+      "role": "target",
+      "url": "https://github.com/psf/requests",
+      "caseId": "wrm-011",
+      "classId": "C03"
+    },
+    {
+      "role": "target",
+      "url": "https://github.com/pallets/flask",
+      "caseId": "wrm-012",
+      "classId": "C03"
+    },
+    {
+      "role": "target",
+      "url": "https://github.com/encode/httpx",
+      "caseId": "wrm-013",
+      "classId": "C03"
+    },
+    {
+      "role": "target",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "caseId": "wrm-014",
+      "classId": "C03"
+    },
+    {
+      "role": "target",
+      "url": "https://github.com/vinid/einstein-arena",
+      "caseId": "wrm-015",
+      "classId": "C03"
+    },
+    {
+      "role": "target",
+      "url": "https://martinfowler.com/articles/microservices.html",
+      "caseId": "wrm-016",
+      "classId": "C04"
+    },
+    {
+      "role": "target",
+      "url": "https://www.gnu.org/philosophy/free-sw.html",
+      "caseId": "wrm-017",
+      "classId": "C04"
+    },
+    {
+      "role": "target",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "caseId": "wrm-018",
+      "classId": "C04"
+    },
+    {
+      "role": "target",
+      "url": "https://www.cisa.gov/news-events/news/understanding-denial-service-attacks",
+      "caseId": "wrm-019",
+      "classId": "C04"
+    },
+    {
+      "role": "target",
+      "url": "https://docs.djangoproject.com/en/5.0/releases/5.0/",
+      "caseId": "wrm-020",
+      "classId": "C04"
+    },
+    {
+      "role": "target",
+      "url": "https://react.dev/learn",
+      "caseId": "wrm-021",
+      "classId": "C05"
+    },
+    {
+      "role": "target",
+      "url": "https://nextjs.org/docs",
+      "caseId": "wrm-022",
+      "classId": "C05"
+    },
+    {
+      "role": "target",
+      "url": "https://svelte.dev/docs/svelte/overview",
+      "caseId": "wrm-023",
+      "classId": "C05"
+    },
+    {
+      "role": "target",
+      "url": "https://vite.dev/guide/",
+      "caseId": "wrm-024",
+      "classId": "C05"
+    },
+    {
+      "role": "target",
+      "url": "https://ui.shadcn.com/docs/installation",
+      "caseId": "wrm-025",
+      "classId": "C05"
+    },
+    {
+      "role": "reference",
+      "url": "https://www.python.org/downloads/release/python-3130/",
+      "caseId": "wrm-026",
+      "classId": "C06"
+    },
+    {
+      "role": "reference",
+      "url": "https://docs.python.org/3/whatsnew/3.13.html",
+      "caseId": "wrm-026",
+      "classId": "C06"
+    },
+    {
+      "role": "reference",
+      "url": "https://nodejs.org/en/blog/announcements/v22-release-announce",
+      "caseId": "wrm-027",
+      "classId": "C06"
+    },
+    {
+      "role": "reference",
+      "url": "https://react.dev/blog/2024/12/05/react-19",
+      "caseId": "wrm-028",
+      "classId": "C06"
+    },
+    {
+      "role": "reference",
+      "url": "https://docs.djangoproject.com/en/5.0/releases/5.0/",
+      "caseId": "wrm-029",
+      "classId": "C06"
+    },
+    {
+      "role": "reference",
+      "url": "https://flask.palletsprojects.com/en/stable/changes/#version-3-0-0",
+      "caseId": "wrm-030",
+      "classId": "C06"
+    },
+    {
+      "role": "reference",
+      "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+      "caseId": "wrm-031",
+      "classId": "C07"
+    },
+    {
+      "role": "reference",
+      "url": "https://www.mongodb.com/legal/licensing/server-side-public-license",
+      "caseId": "wrm-031",
+      "classId": "C07"
+    },
+    {
+      "role": "reference",
+      "url": "https://martinfowler.com/bliki/MonolithFirst.html",
+      "caseId": "wrm-032",
+      "classId": "C07"
+    },
+    {
+      "role": "reference",
+      "url": "https://martinfowler.com/articles/microservices.html",
+      "caseId": "wrm-032",
+      "classId": "C07"
+    },
+    {
+      "role": "reference",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+      "caseId": "wrm-033",
+      "classId": "C07"
+    },
+    {
+      "role": "reference",
+      "url": "https://www.apollographql.com/blog/graphql-vs-rest",
+      "caseId": "wrm-033",
+      "classId": "C07"
+    },
+    {
+      "role": "reference",
+      "url": "https://react.dev/learn/managing-state",
+      "caseId": "wrm-034",
+      "classId": "C07"
+    },
+    {
+      "role": "reference",
+      "url": "https://redux.js.org/introduction/getting-started",
+      "caseId": "wrm-034",
+      "classId": "C07"
+    },
+    {
+      "role": "reference",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_components",
+      "caseId": "wrm-035",
+      "classId": "C07"
+    },
+    {
+      "role": "reference",
+      "url": "https://react.dev/learn",
+      "caseId": "wrm-035",
+      "classId": "C07"
+    },
+    {
+      "role": "target",
+      "url": "https://cognition.ai/blog/introducing-devin",
+      "caseId": "wrm-036",
+      "classId": "C08"
+    },
+    {
+      "role": "target",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "caseId": "wrm-037",
+      "classId": "C08"
+    },
+    {
+      "role": "target",
+      "url": "https://weaviate.io/blog/what-is-a-vector-database",
+      "caseId": "wrm-038",
+      "classId": "C08"
+    },
+    {
+      "role": "target",
+      "url": "https://www.elastic.co/what-is/vector-search",
+      "caseId": "wrm-039",
+      "classId": "C08"
+    },
+    {
+      "role": "target",
+      "url": "https://react.dev/blog/2024/12/05/react-19",
+      "caseId": "wrm-040",
+      "classId": "C08"
+    },
+    {
+      "role": "target",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+      "caseId": "wrm-041",
+      "classId": "C09"
+    },
+    {
+      "role": "target",
+      "url": "https://raw.githubusercontent.com/psf/requests/main/README.md",
+      "caseId": "wrm-042",
+      "classId": "C09"
+    },
+    {
+      "role": "target",
+      "url": "https://github.com/psf/requests",
+      "caseId": "wrm-043",
+      "classId": "C09"
+    },
+    {
+      "role": "target",
+      "url": "https://react.dev/learn",
+      "caseId": "wrm-044",
+      "classId": "C09"
+    },
+    {
+      "role": "target",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "caseId": "wrm-045",
+      "classId": "C09"
+    }
+  ],
+  "cases": [
+    {
+      "id": "wrm-001",
+      "classId": "C01",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-002",
+      "classId": "C01",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://docs.python.org/3/tutorial/introduction.html",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-003",
+      "classId": "C01",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-004",
+      "classId": "C01",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://12factor.net/",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-005",
+      "classId": "C01",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-006",
+      "classId": "C02",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "text_document",
+      "targetUrl": "https://raw.githubusercontent.com/psf/requests/main/README.md",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-007",
+      "classId": "C02",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "text_document",
+      "targetUrl": "https://raw.githubusercontent.com/python/cpython/main/README.rst",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-008",
+      "classId": "C02",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "text_document",
+      "targetUrl": "https://raw.githubusercontent.com/encode/httpx/master/README.md",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-009",
+      "classId": "C02",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "text_document",
+      "targetUrl": "https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/README.md",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-010",
+      "classId": "C02",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "text_document",
+      "targetUrl": "https://www.rfc-editor.org/rfc/rfc9110.txt",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-011",
+      "classId": "C03",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "repository_page",
+      "targetUrl": "https://github.com/psf/requests",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-012",
+      "classId": "C03",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "repository_page",
+      "targetUrl": "https://github.com/pallets/flask",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-013",
+      "classId": "C03",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "repository_page",
+      "targetUrl": "https://github.com/encode/httpx",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-014",
+      "classId": "C03",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "repository_page",
+      "targetUrl": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-015",
+      "classId": "C03",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "repository_page",
+      "targetUrl": "https://github.com/vinid/einstein-arena",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-016",
+      "classId": "C04",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://martinfowler.com/articles/microservices.html",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-017",
+      "classId": "C04",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://www.gnu.org/philosophy/free-sw.html",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-018",
+      "classId": "C04",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-019",
+      "classId": "C04",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://www.cisa.gov/news-events/news/understanding-denial-service-attacks",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-020",
+      "classId": "C04",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://docs.djangoproject.com/en/5.0/releases/5.0/",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-021",
+      "classId": "C05",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://react.dev/learn",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-022",
+      "classId": "C05",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://nextjs.org/docs",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-023",
+      "classId": "C05",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://svelte.dev/docs/svelte/overview",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-024",
+      "classId": "C05",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://vite.dev/guide/",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-025",
+      "classId": "C05",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://ui.shadcn.com/docs/installation",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-026",
+      "classId": "C06",
+      "transportProfile": "normal",
+      "targetMode": "search_topic",
+      "targetType": "topic_query",
+      "targetUrl": "",
+      "referenceUrls": [
+        "https://www.python.org/downloads/release/python-3130/",
+        "https://docs.python.org/3/whatsnew/3.13.html"
+      ]
+    },
+    {
+      "id": "wrm-027",
+      "classId": "C06",
+      "transportProfile": "normal",
+      "targetMode": "search_topic",
+      "targetType": "topic_query",
+      "targetUrl": "",
+      "referenceUrls": "https://nodejs.org/en/blog/announcements/v22-release-announce"
+    },
+    {
+      "id": "wrm-028",
+      "classId": "C06",
+      "transportProfile": "normal",
+      "targetMode": "search_topic",
+      "targetType": "topic_query",
+      "targetUrl": "",
+      "referenceUrls": "https://react.dev/blog/2024/12/05/react-19"
+    },
+    {
+      "id": "wrm-029",
+      "classId": "C06",
+      "transportProfile": "normal",
+      "targetMode": "search_topic",
+      "targetType": "topic_query",
+      "targetUrl": "",
+      "referenceUrls": "https://docs.djangoproject.com/en/5.0/releases/5.0/"
+    },
+    {
+      "id": "wrm-030",
+      "classId": "C06",
+      "transportProfile": "normal",
+      "targetMode": "search_topic",
+      "targetType": "topic_query",
+      "targetUrl": "",
+      "referenceUrls": "https://flask.palletsprojects.com/en/stable/changes/#version-3-0-0"
+    },
+    {
+      "id": "wrm-031",
+      "classId": "C07",
+      "transportProfile": "normal",
+      "targetMode": "search_topic",
+      "targetType": "topic_query",
+      "targetUrl": "",
+      "referenceUrls": [
+        "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+        "https://www.mongodb.com/legal/licensing/server-side-public-license"
+      ]
+    },
+    {
+      "id": "wrm-032",
+      "classId": "C07",
+      "transportProfile": "normal",
+      "targetMode": "search_topic",
+      "targetType": "topic_query",
+      "targetUrl": "",
+      "referenceUrls": [
+        "https://martinfowler.com/bliki/MonolithFirst.html",
+        "https://martinfowler.com/articles/microservices.html"
+      ]
+    },
+    {
+      "id": "wrm-033",
+      "classId": "C07",
+      "transportProfile": "normal",
+      "targetMode": "search_topic",
+      "targetType": "topic_query",
+      "targetUrl": "",
+      "referenceUrls": [
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "https://www.apollographql.com/blog/graphql-vs-rest"
+      ]
+    },
+    {
+      "id": "wrm-034",
+      "classId": "C07",
+      "transportProfile": "normal",
+      "targetMode": "search_topic",
+      "targetType": "topic_query",
+      "targetUrl": "",
+      "referenceUrls": [
+        "https://react.dev/learn/managing-state",
+        "https://redux.js.org/introduction/getting-started"
+      ]
+    },
+    {
+      "id": "wrm-035",
+      "classId": "C07",
+      "transportProfile": "normal",
+      "targetMode": "search_topic",
+      "targetType": "topic_query",
+      "targetUrl": "",
+      "referenceUrls": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/Web_components",
+        "https://react.dev/learn"
+      ]
+    },
+    {
+      "id": "wrm-036",
+      "classId": "C08",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://cognition.ai/blog/introducing-devin",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-037",
+      "classId": "C08",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://www.anthropic.com/engineering/building-effective-agents",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-038",
+      "classId": "C08",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://weaviate.io/blog/what-is-a-vector-database",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-039",
+      "classId": "C08",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://www.elastic.co/what-is/vector-search",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-040",
+      "classId": "C08",
+      "transportProfile": "normal",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://react.dev/blog/2024/12/05/react-19",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-041",
+      "classId": "C09",
+      "transportProfile": "degraded_primary_transport",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-042",
+      "classId": "C09",
+      "transportProfile": "degraded_primary_transport",
+      "targetMode": "explicit_url",
+      "targetType": "text_document",
+      "targetUrl": "https://raw.githubusercontent.com/psf/requests/main/README.md",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-043",
+      "classId": "C09",
+      "transportProfile": "degraded_primary_transport",
+      "targetMode": "explicit_url",
+      "targetType": "repository_page",
+      "targetUrl": "https://github.com/psf/requests",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-044",
+      "classId": "C09",
+      "transportProfile": "degraded_primary_transport",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://react.dev/learn",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-045",
+      "classId": "C09",
+      "transportProfile": "degraded_primary_transport",
+      "targetMode": "explicit_url",
+      "targetType": "html_page",
+      "targetUrl": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-046",
+      "classId": "C10",
+      "transportProfile": "normal",
+      "targetMode": "underspecified",
+      "targetType": "none",
+      "targetUrl": "",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-047",
+      "classId": "C10",
+      "transportProfile": "normal",
+      "targetMode": "underspecified",
+      "targetType": "none",
+      "targetUrl": "",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-048",
+      "classId": "C10",
+      "transportProfile": "normal",
+      "targetMode": "underspecified",
+      "targetType": "none",
+      "targetUrl": "",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-049",
+      "classId": "C10",
+      "transportProfile": "normal",
+      "targetMode": "underspecified",
+      "targetType": "none",
+      "targetUrl": "",
+      "referenceUrls": null
+    },
+    {
+      "id": "wrm-050",
+      "classId": "C10",
+      "transportProfile": "normal",
+      "targetMode": "underspecified",
+      "targetType": "none",
+      "targetUrl": "",
+      "referenceUrls": null
+    }
+  ],
+  "freezePolicy": {
+    "purpose": "Freeze the URL-bearing target set before preflight and live rerun.",
+    "rules": [
+      "Preflight must read from this lock manifest rather than re-deriving mutable target URLs from a later-edited corpus.",
+      "Any corpus edit that changes targetUrl or referenceUrls requires regenerating this lock manifest.",
+      "Wide rerun artifacts should record the lock manifest path and corpus hash used."
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+﻿{
+    "bundleId":  "web_reliability_50_v1",
+    "generatedAtUtc":  "2026-04-18T13:18:09.5987653Z",
+    "sourceRunId":  "web_reliability_live_rerun_20260418_finalfrozen_publicproof_pass6",
+    "corpus":  {
+                   "file":  "corpus/web_reliability_mini_50_v2.jsonl",
+                   "sha256":  "66a289d088e24fb62444dabf138bd39f0bd300f9c75c54b5d18debf1fc795a7d"
+               },
+    "targetLock":  {
+                       "file":  "corpus/web_reliability_mini_50_v2.targets.lock.json",
+                       "sha256":  "d9696312ffffc04482fb9cc82a6acc8f95610fd9211709b5253df6d0982df4a6"
+                   },
+    "sanitizedResults":  {
+                             "file":  "results/web_reliability_50_results.sanitized.jsonl",
+                             "caseCount":  50,
+                             "sha256":  "0d24dfa032c32ff064476a524833a630a4437034e853043fe78a4c55e6f960c2"
+                         },
+    "runSummary":  {
+                       "totalCases":  50,
+                       "okCases":  50,
+                       "errorCases":  0,
+                       "clarificationCases":  5,
+                       "casesWithSources":  45,
+                       "averageCitationCoverage":  0.589,
+                       "startedAt":  "",
+                       "completedAt":  "",
+                       "durationSec":  267.15
+                   },
+    "publicationBoundary":  {
+                                "excludedFields":  [
+                                                       "requestEnvelope",
+                                                       "rawResponse",
+                                                       "conversationId",
+                                                       "turnId",
+                                                       "searchTrace",
+                                                       "routeDecision",
+                                                       "evidenceBoundary",
+                                                       "verifierOutcome",
+                                                       "claimGroundings",
+                                                       "auditStatus",
+                                                       "executionTrace",
+                                                       "lifecycleTrace",
+                                                       "styleTelemetry",
+                                                       "interactionState"
+                                                   ],
+                                "pathLeakCheck":  "required",
+                                "runtimeLogInclusion":  "forbidden"
+                            },
+    "files":  [
+                  "README.md",
+                  "MANIFEST.json",
+                  "CHECKSUMS.sha256",
+                  "corpus/web_reliability_mini_50_v2.jsonl",
+                  "corpus/web_reliability_mini_50_v2.targets.lock.json",
+                  "results/web_reliability_50_results.sanitized.jsonl",
+                  "docs/SUMMARY.md"
+              ]
+}
