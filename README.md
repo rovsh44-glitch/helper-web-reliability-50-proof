@@ -16,3 +16,7 @@ It intentionally excludes raw private-core runtime payloads:
 - conversation and turn identifiers
 - runtime logs and audit traces
 - absolute local machine paths
+
+Release note for this publication:
+
+- [2026-04-18 release notes](docs/RELEASE_NOTES_2026-04-18.md)
